@@ -1,0 +1,106 @@
+/* General paragraph styles */
+.paragraph {
+    text-align:end;
+    margin-top: 250px;
+    margin-right: 20px;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: rgb(17, 124, 143);
+}
+
+.paragraph2 {
+    text-align: end;
+    margin-right: 10px;
+    font-size: 100px;
+    font-family: 'Courier', sans-serif;
+    color: rgb(17, 124, 143);
+    border: 0px;
+    margin: 0px;
+}
+
+/* Menu bar styles */
+.menu-bar {
+    text-align: center;
+    background-color: #000000;
+}
+
+.menu-bar ul {
+    display: inline-flex;
+    color: floralwhite;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-bar ul li {
+    font-family: Impact, sans-serif;
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.menu-bar ul li:hover {
+    background: floralwhite;
+    color: #000000;
+    border-radius: 3px;
+}
+
+/* Transparent background paragraph with a border */
+.para3 {
+    overflow: visible;
+    width: 600px;
+    border-radius: 15px;
+    padding: 20px;
+    border: 10px ;
+    background-color: rgba(6, 56, 163, 0.7);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Paragraph with justified alignment */
+.paragraph5 {
+    text-align: justify;
+    font-size: 20px;
+    font-family: Courier, monospace;
+    margin: 30px;
+    color: rgb(255, 255, 255);
+}
+
+/* Icons with hover effect */
+.icons {
+    display: flex;
+    font-size: 3rem;
+    margin-top: 10px;
+    line-height: 0;
+    align-items: flex-end;
+    gap: 1px;
+    justify-content: center;
+}
+
+.icons a {
+    margin-right: 75px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.icons a:hover {
+    transform: scale(1.5);
+    transition: transform 0.3s ease;
+}
+
+/* Footer styling */
+.footer {
+    background-color: black;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer .p1 {
+    color: floralwhite;
+    font-size: larger;
+    padding-bottom: 10px;
+}
